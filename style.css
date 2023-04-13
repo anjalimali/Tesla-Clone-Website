@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-weight: 600;
+    transition-duration: 0.4s;
+    float: left;
+}
+a:hover{
+    background-color:whitesmoke;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.model_S{
+    display: flex;
+    flex-direction: column;
+    background-image: url('./images/model-s.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    align-items: center;
+}
+.upper{
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+p{
+    font-weight: 600;
+}
+
+.lower{
+    margin-bottom: 4rem;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    width: 15rem;
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+.btn2{
+    background-color: white;
+    color: black;
+    width: 15rem;
+    padding: 1rem 4rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1rem;
+}
+
+/* Model Y */
+
+.model_Y{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(./images/model-y.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* Model X */
+
+.model_X{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/model-x.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Model 3 */
+
+.model_3{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/model-3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Solar Panels */
+
+.solar_panels{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/solar-panel.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Solar Roof */
+
+.solar_roof{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/solar-roof.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Accessories */
+
+.accessories{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/accessories.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
