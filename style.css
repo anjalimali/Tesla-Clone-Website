@@ -1,9 +1,9 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem;
@@ -13,7 +13,7 @@ nav{
     right: 0;
 }
 
-a{
+a {
     color: black;
     text-decoration: none;
     margin-right: 1rem;
@@ -21,13 +21,14 @@ a{
     transition-duration: 0.4s;
     float: left;
 }
-a:hover{
-    background-color:whitesmoke;
+
+a:hover {
+    background-color: whitesmoke;
     border-radius: 3px;
     padding: 5px;
 }
 
-.model_S{
+.model_S {
     display: flex;
     flex-direction: column;
     background-image: url('./images/model-s.jpg');
@@ -37,26 +38,27 @@ a:hover{
     justify-content: space-between;
     align-items: center;
 }
-.upper{
+
+.upper {
     margin-top: 4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h1{
+h1 {
     font-size: 3rem;
 }
 
-p{
+p {
     font-weight: 600;
 }
 
-.lower{
+.lower {
     margin-bottom: 4rem;
 }
 
-.btn1{
+.btn1 {
     background-color: black;
     color: white;
     width: 15rem;
@@ -65,7 +67,7 @@ p{
     border-radius: 1rem;
 }
 
-.btn2{
+.btn2 {
     background-color: white;
     color: black;
     width: 15rem;
@@ -77,20 +79,20 @@ p{
 
 /* Model Y */
 
-.model_Y{
+.model_Y {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
     background-image: url(./images/model-y.jpg);
-    background-position:center ;
+    background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
 /* Model X */
 
-.model_X{
+.model_X {
     display: flex;
     flex-direction: column;
     background-image: url(./images/model-x.jpg);
@@ -103,7 +105,7 @@ p{
 
 /* Model 3 */
 
-.model_3{
+.model_3 {
     display: flex;
     flex-direction: column;
     background-image: url(./images/model-3.jpg);
@@ -116,7 +118,7 @@ p{
 
 /* Solar Panels */
 
-.solar_panels{
+.solar_panels {
     display: flex;
     flex-direction: column;
     background-image: url(./images/solar-panel.jpg);
@@ -129,11 +131,11 @@ p{
 
 /* Solar Roof */
 
-.solar_roof{
+.solar_roof {
     display: flex;
     flex-direction: column;
     background-image: url(./images/solar-roof.jpg);
-    background-position:center ;
+    background-position: center;
     background-size: cover;
     height: 100vh;
     justify-content: space-between;
@@ -142,7 +144,7 @@ p{
 
 /* Accessories */
 
-.accessories{
+.accessories {
     display: flex;
     flex-direction: column;
     background-image: url(./images/accessories.jpg);
@@ -153,9 +155,37 @@ p{
     align-items: center;
 }
 
-footer{
+footer {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 4rem;
+}
+
+@media screen and (max-width:768px) {
+    .middle {
+        display: none;
+    }
+
+    .rigth {
+        display: none;
+    }
+
+    .btn1 {
+        width: 10rem;
+        padding: 1rem 1rem;
+        margin: 0.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .btn2 {
+        width: 10rem;
+        padding: 1rem 1rem;
+        margin: 0.5rem;
+    }
+
+    .foot{
+        display: none;
+    }
 }
